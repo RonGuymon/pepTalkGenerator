@@ -24,6 +24,7 @@ This repository is primarily meant to be documentation for creating an API. Gett
   * Terminal will print out, "Running swagger Docs at http://127.0.0.1:80/__docs__/". Copy that and paste it into your browser and test it out. It will look nice.
   * To stop it, open another terminal window and run `docker stop <container id>`. You can find the container id in the docker desktop interface.
 10. Now it's time to put it onto AWS so that anyone can use it. Login to your AWS account.
+  * This YouTube video from LaithAcademy was super helpful: https://www.youtube.com/watch?v=YDNSItBN15w&list=PLKrdQ4acsVHDtJHmhn1y_dyk9-zOht1px&index=4&ab_channel=LaithAcademy
 11. First we need to create a container repository. 
   * Search for "ecr" and select "Repositories".
   * Select "Create repository"
